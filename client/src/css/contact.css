@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins&family=Raleway:wght@300&display=swap");
+
+.containerOne {
+  margin: 0;
+  padding: 30px 0px;
+  background-color: #6ccfbd2c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.details {
+  border: 2px solid gray;
+  background-color: whitesmoke;
+  padding: 20px 20px;
+  border-radius: 20px;
+  /* font-weight: bold; */
+  font-family: "Poppins", sans-serif;
+}
+.bottomBox {
+  background-color: #6ccfbd2c;
+  /* border: 2px solid black; */
+  height: 70vh;
+  padding: 70px 0px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.boxOne {
+  border: 2px solid gray;
+  background-color: whitesmoke;
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px 5px 5px 20px;
+}
+.boxOne > form > input {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.boxOne > h2 {
+  padding-left: 25px;
+}
+.boxOne > form > textarea {
+  width: 65vw;
+}
+
+@media screen and (max-width: 1300px) {
+  .boxOne > form > textarea {
+    /* width: auto; */
+  }
+}

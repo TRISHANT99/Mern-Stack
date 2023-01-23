@@ -1,0 +1,18 @@
+.signin-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+.sign-in {
+  background-color: rgba(124, 119, 119, 0.137);
+  height: 100vh;
+  margin-top: -50px;
+}
+img {
+  border-radius: 20px;
+}
+.signin-form {
+  margin-left: 15px;
+}

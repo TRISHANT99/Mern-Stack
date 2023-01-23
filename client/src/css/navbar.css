@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&family=Raleway:wght@300&display=swap");
+
+.logo {
+  border: none;
+  border-radius: 50%;
+  margin-left: 30%;
+}
+.search {
+  outline: none !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.425) !important;
+  background-color: rgba(36, 34, 34, 0.082) !important;
+}
+input {
+  outline: none !important;
+}
+.search:focus {
+  outline: none !important;
+  border: none !important;
+}
+.search::placeholder {
+  color: rgba(255, 255, 255, 0.425) !important;
+}
